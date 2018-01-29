@@ -1,0 +1,16 @@
+{
+  "name": "4.2-invoice-generator",
+  "version": "1.0.0",
+  "description": "Worker to generate invoices from queue",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fivebeans": "^1.5.0",
+    "mustache": "^2.3.0",
+    "wkhtmltopdf": "^0.3.4"
+  }
+}

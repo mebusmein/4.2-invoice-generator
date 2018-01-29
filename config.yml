@@ -1,0 +1,9 @@
+beanstalkd:
+    host: 127.0.0.1
+    port: 11333
+handlers:
+    - "./handlers/invoice.js"
+watch:
+    - 'invoice'
+logdir: "./log"
+ignoreDefault: false
